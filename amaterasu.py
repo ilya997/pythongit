@@ -1,25 +1,20 @@
 
+films = ['Крепкий орешек', 'Назад в будущее', 'Таксист', 'Леон', 'Богемская рапсодия', 'Город грехов', 'Мементо', 'Отступники', 'Деревня']
+like_films = []
+while True:
+    search = input('Какой фильм ищем? ')
 
 
 
 
-print("Введите первую точку")
-x1 = float(input('X: '))
-y1 = float(input('Y: '))
-print("\nВведите вторую точку")
-x2 = float(input('X: '))
-y2 = float(input('Y: '))
-
-x_diff = x1 - x2
-y_diff = y1 - y2
-if x_diff == 0 or y_diff == 0:
-    k = 1
-else:
-    k = y_diff / x_diff
 
 
-print("Уравнение прямой, проходящей через эти точки:")
-print("y = ", k, " * x + ", b)
+
+
+
+
+
+
 
 
 
